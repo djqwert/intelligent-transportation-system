@@ -1,0 +1,14 @@
+Per creare l'applicativo:
+make TARGET=<nome_dispositivo>
+make TARGET=sky
+
+Per scrivere sul dispositivo da linea di comando:
+make <nome_esercizio>.upload TARGET=<nome_dispositivo>
+make Esercizio4_1.upload TARGET=sky
+
+Per avviare il dispositivo da terminale scrivere:
+make login TARGET=sky 
+
+Per avviare il simulatore scrivere il linea di comando:
+cd ./contiki/tools/cooja
+ant run

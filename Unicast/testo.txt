@@ -1,0 +1,5 @@
+Perché UNICAST tra G* e TL* (G1 -> TL1 e G2 -> TL2):
+- Perché i nodi sensori G* inviano l'informazione al proprio semaforo TL*:
+	se il nodo G* inviasse l'informazione anche all'altro semaforo sfrutterebbe una maggiore potenza per inviare l'informazione
+- Il messaggio "forse" arriva, con broadcast non è detto!
+- Tolleranza ai guasti: se un G* non funziona, l'altro semaforo viene controllato dall'altro attraverso un handshake
